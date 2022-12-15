@@ -1,111 +1,93 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Opera Singer</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
+    <title>Maria Grazia | Freelance Opera Singer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-    }
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #f3f3f3;
+        }
 
-    .banner {
-      background-image: url('banner.jpg');
-      background-size: cover;
-      height: 300px;
-    }
+        .main-container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
 
-    .main-content {
-      padding: 1rem;
-    }
+        .hero-image {
+            width: 100%;
+        }
 
-    .lead {
-      font-size: 1.5rem;
-      font-weight: bold;
-      line-height: 1.5;
-    }
+        .intro {
+            padding: 20px;
+            font-size: 20px;
+        }
 
-    .services {
-      margin-top: 2rem;
-    }
+        .bio {
+            padding: 20px;
+        }
 
-    .service {
-      margin-bottom: 2rem;
-    }
+        .bio-image {
+            width: 300px;
+            margin: 10px auto;
+            border-radius: 50%;
+        }
 
-    .service .title {
-      font-size: 1.25rem;
-      font-weight: bold;
-    }
+        .bio-text {
+            text-align: center;
+        }
 
-    .service .description {
-      font-size: 1rem;
-      line-height: 1.5;
-    }
+        .contact {
+            padding: 20px;
+        }
 
-    .contact {
-      margin-top: 2rem;
-    }
+        .contact-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0;
+        }
 
-    .contact .title {
-      font-size: 1.25rem;
-      font-weight: bold;
-    }
-
-    .contact .description {
-      font-size: 1rem;
-      line-height: 1.5;
-    }
-
-    .contact input[type=text],
-    .contact textarea {
-      width: 100%;
-      padding: 0.5rem;
-      font-family: Arial, sans-serif;
-      font-size: 1rem;
-      border: 1px solid #ccc;
-    }
-
-    .contact input[type=submit] {
-      background-color: #000;
-      color: #fff;
-      padding: 0.5rem;
-      font-family: Arial, sans-serif;
-      font-size: 1rem;
-      border: none;
-    }
-  </style>
+        .contact-icon {
+            width: 50px;
+            margin-right: 5px;
+        }
+    </style>
 </head>
 
 <body>
-  <div class="container">
-    <div class="banner"></div>
-    <div class="main-content">
-      <p class="lead">Welcome to the website of the freelance opera singer! I am a professional operatic vocalist with experience performing in some of the world's most renowned opera houses. I offer a variety of services, from private lessons to live performances.</p>
-      <div class="services">
-        <div class="service">
-          <div class="title">Private Lessons</div>
-          <div class="description">I offer private lessons to help you perfect your technique and gain confidence in your singing. I specialize in classical singing, but can also teach other styles.</div>
+    <div class="main-container">
+        <img class="hero-image" src="opera-singer.jpg" alt="Opera Singer Maria Grazia">
+        <div class="intro">
+            <h1>Maria Grazia</h1>
+            <h3>Freelance Opera Singer</h3>
         </div>
-        <div class="service">
-          <div class="title">Live Performances</div>
-          <div class="description">I offer live performances of classical and other styles of music at a variety of events, from weddings to corporate functions.</div>
+        <div class="bio">
+            <img class="bio-image" src="maria-grazia.jpg" alt="Maria Grazia">
+            <div class="bio-text">
+                <p>
+                    Maria Grazia is a professional opera singer, with a passion for music and art. She has been performing in various operas, concerts and other events since a young age. She is an experienced vocalist and performer, and is always looking for new opportunities to showcase her talents.
+                </p>
+            </div>
         </div>
-      </div>
-      <div class="contact">
-        <div class="title">Contact Me</div>
-        <div class="description">If you have any questions or would like to book me for an event, please fill out the form below and I will get back to you as soon as possible.</div>
-        <form>
-          <input type="text" name="name" placeholder="Name">
-          <input type="text" name="email" placeholder="Email">
-          <textarea name="message" placeholder="Message"></textarea>
-          <input type="submit" value="Send">
-        </form>
-      </div>
+        <div class="contact">
+            <h2>Contact Maria Grazia</h2>
+            <div class="contact-item">
+                <img class="contact-icon" src="email-icon.jpg" alt="Email Icon">
+                <span>maria.grazia@example.com</span>
+            </div>
+            <div class="contact-item">
+                <img class="contact-icon" src="phone-icon.jpg" alt="Phone Icon">
+                <span>+1-555-123-4567</span>
+            </div>
+        </div>
     </div>
-  </div>
 </body>
 
 </html>
